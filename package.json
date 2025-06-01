@@ -9,6 +9,7 @@
     "indexer": "ts-node src/indexer.ts",
     "build": "tsc",
     "start": "node dist/server.js",
+    "vercel-build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
